@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Bitter:wght@200&family=Dancing+Script&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow, sans-serif;
+    margin-top: 25px;
+}
+
+header {
+    /* background: rgb(155, 155, 155); */
+    clear: both;
+    position: relative;
+}
+
+header h1, .logo {
+    font-family: Dancing Script, sans-serif;
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    font-size: 300%;
+    padding-left: 25px;
+}
+
+nav {
+    /* background-color: lightblue; */
+    list-style-type: none;
+    clear: both;
+    float: right;
+    position: absolute;
+    right: 5%;
+    top: 10%;
+}
+
+nav li {
+    display: inline-block;
+    font-weight: 600;
+    margin: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: grey;
+    display: block;
+}
+
+nav a:hover {
+    color: white;
+    background-color: grey;
+}
+
+.active {
+    outline: 1px solid grey;
+}
