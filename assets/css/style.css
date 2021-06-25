@@ -9,13 +9,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: Barlow, sans-serif;
-    margin-top: 25px;
 }
 
 header {
     /* background: rgb(155, 155, 155); */
     clear: both;
     position: relative;
+    margin: 25px 0;
 }
 
 header h1, .logo {
@@ -59,4 +59,12 @@ nav a:hover {
 
 .active {
     outline: 1px solid grey;
+}
+
+.hero-image {
+    background: url('../images/mario-dobelmann-QsFgme3aINg-unsplash.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
 }
