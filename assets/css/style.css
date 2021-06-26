@@ -67,4 +67,22 @@ nav a:hover {
     height: 500px;
     width: 100%;
     overflow: hidden;
+    position: relative;
+}
+
+.hero-image-header {
+    /* padding: 150px 80px; */
+    background-color: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    position: absolute;
+
+    left: 20%;
+    top: 10%;
+    bottom: 10%;
+}
+
+.hero-image-text {
+    text-align: center;
+    margin-top: 25%;
+    max-width: 20ch;
 }
