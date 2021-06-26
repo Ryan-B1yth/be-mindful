@@ -175,4 +175,5 @@ nav a:hover {
  .yoga-about-section:hover {
      transform: scale(1.1);
      transition: all 500ms ease-in-out;
+     
  }
