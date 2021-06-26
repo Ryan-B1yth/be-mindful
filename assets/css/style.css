@@ -177,3 +177,27 @@ nav a:hover {
      transition: all 500ms ease-in-out;
      
  }
+
+ /* Footer */
+
+ footer {
+     height: 100px;
+     color: white;
+     background-image: linear-gradient(to left, #A6A897, #43463E);
+ }
+
+ footer ul {
+    text-align: center;
+    padding-top: 35px;
+    
+ }
+
+ footer li {
+     display: inline-block;
+     margin: 0 20px;
+ }
+
+ footer a {
+     text-decoration: none;
+     color: white;
+ }
