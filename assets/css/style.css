@@ -66,7 +66,8 @@ nav a:hover {
     background-size: cover;
     height: 500px;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
+    margin-bottom: 10px;
     position: relative;
 }
 
@@ -98,8 +99,9 @@ nav a:hover {
 .mindfulness-about, .meditation-about {
     height: 500px;
     position: relative;
-    overflow: hidden;
-    border: 1px solid grey;
+    /* overflow: hidden; */
+    /* border-top: 1px solid grey;
+    border-bottom: 1px solid grey; */
 }
 
 .mindfulness-about h2 {
@@ -143,4 +145,34 @@ nav a:hover {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
  }
 
- 
+ /* Yoga */
+
+ .yoga-about {
+     height: 500px;
+     text-align: center;
+     /* border-top: 1px solid grey; */
+ }
+
+ .yoga-about h2 {
+    padding-top: 10%;
+}
+
+ .yoga-about h3 {
+     margin: 20px;
+ }
+
+ .yoga-about-section {
+     max-width: 20%;
+     display: inline-block;
+     text-align: center;
+     padding: 20px;
+     margin: 10px;
+
+     transform: scale(1);
+     transition: all 500ms ease-in-out;
+ }
+
+ .yoga-about-section:hover {
+     transform: scale(1.1);
+     transition: all 500ms ease-in-out;
+ }
