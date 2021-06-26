@@ -86,3 +86,33 @@ nav a:hover {
     margin-top: 25%;
     max-width: 20ch;
 }
+
+/* Mindfulness */
+
+.mindfulness-about {
+    /* border-bottom: 1px solid grey; */
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mindfulness-about h2 {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+}
+
+.mindfulness-about img {
+    height: 100%;
+    position: absolute;
+    left: 15%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
+    overflow: hidden;
+}
+
+.mindfulness-text {
+    line-height: 50%;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
