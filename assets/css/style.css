@@ -70,7 +70,7 @@ nav a:hover {
     position: relative;
 }
 
-.hero-image-header {
+.hero-image-card {
     /* padding: 150px 80px; */
     background-color: rgba(255, 255, 255, 0.6);
     display: inline-block;
@@ -79,8 +79,15 @@ nav a:hover {
     left: 20%;
     top: 10%;
     bottom: 10%;
+
+    transform: scale(1);
+    transition: all 750ms ease-in-out;
 }
 
+.hero-image-card:hover {
+    transform: scale(1.1);
+    transition: all 500ms ease-in-out;
+}
 .hero-image-text {
     text-align: center;
     margin-top: 25%;
