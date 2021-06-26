@@ -71,7 +71,6 @@ nav a:hover {
 }
 
 .hero-image-card {
-    /* padding: 150px 80px; */
     background-color: rgba(255, 255, 255, 0.6);
     display: inline-block;
     position: absolute;
@@ -96,11 +95,11 @@ nav a:hover {
 
 /* Mindfulness */
 
-.mindfulness-about {
-    /* border-bottom: 1px solid grey; */
+.mindfulness-about, .meditation-about {
     height: 500px;
     position: relative;
     overflow: hidden;
+    border: 1px solid grey;
 }
 
 .mindfulness-about h2 {
@@ -114,7 +113,6 @@ nav a:hover {
     position: absolute;
     left: 15%;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
-    overflow: hidden;
 }
 
 .mindfulness-text {
@@ -123,3 +121,26 @@ nav a:hover {
     top: 50%;
     right: 10%;
 }
+
+ .meditation-about h2 {
+     position: absolute;
+     left: 10%;
+     top: 40%;
+     
+ }
+
+ .meditation-text {
+    line-height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+ }
+
+ .meditation-about img {
+    height: 100%;
+    position: absolute;
+    right: 15%;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
+ }
+
+ 
