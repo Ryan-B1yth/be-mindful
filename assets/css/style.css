@@ -1,277 +1,300 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Bitter:wght@200&family=Dancing+Script&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    list-style-type: none;
+padding: 0;
+margin: 0;
+border: 0;
+list-style-type: none;
 }
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Barlow, sans-serif;
+margin: 0;
+padding: 0;
+font-family: Barlow, sans-serif;
 }
 
 header {
-    /* background: rgb(155, 155, 155); */
-    clear: both;
-    position: relative;
-    margin: 25px 0;
+/* background: rgb(155, 155, 155); */
+clear: both;
+position: relative;
+margin: 25px 0;
 }
 
 header h1, .logo {
-    font-family: Dancing Script, sans-serif;
+font-family: Dancing Script, sans-serif;
 }
 
 .logo {
-    text-decoration: none;
-    color: black;
-    font-size: 300%;
-    padding-left: 25px;
+text-decoration: none;
+color: black;
+font-size: 300%;
+padding-left: 25px;
 }
 
 nav {
-    /* background-color: lightblue; */
-    clear: both;
-    float: right;
-    position: absolute;
-    right: 5%;
-    top: 10%;
+/* background-color: lightblue; */
+clear: both;
+float: right;
+position: absolute;
+right: 5%;
+top: 10%;
 }
 
 nav li {
-    display: inline-block;
-    font-weight: 600;
-    margin: 5px;
+display: inline-block;
+font-weight: 600;
+margin: 5px;
 }
 
 nav a {
-    text-decoration: none;
-    padding: 10px 20px;
-    color: grey;
-    display: block;
+text-decoration: none;
+padding: 10px 20px;
+color: grey;
+display: block;
 }
 
 nav a:hover {
-    color: white;
-    background-color: grey;
+color: white;
+background-color: grey;
 }
 
 .active {
-    outline: 1px solid grey;
+outline: 1px solid grey;
 }
 
 .hero-image {
-    background: url('../images/mario-dobelmann-QsFgme3aINg-unsplash.jpg') no-repeat center center;
-    background-size: cover;
-    height: 500px;
-    width: 100%;
-    /* overflow: hidden; */
-    margin-bottom: 10px;
-    position: relative;
+background: url('../images/mario-dobelmann-QsFgme3aINg-unsplash.jpg') no-repeat center center;
+background-size: cover;
+height: 500px;
+width: 100%;
+/* overflow: hidden; */
+margin-bottom: 10px;
+position: relative;
 }
 
 .hero-image-card {
-    background-color: rgba(255, 255, 255, 0.6);
-    display: inline-block;
-    position: absolute;
+background-color: rgba(255, 255, 255, 0.6);
+display: inline-block;
+position: absolute;
 
-    left: 20%;
-    top: 10%;
-    bottom: 10%;
+left: 20%;
+top: 10%;
+bottom: 10%;
 
-    transform: scale(1);
-    transition: all 750ms ease-in-out;
+transform: scale(1);
+transition: all 750ms ease-in-out;
 }
 
 .hero-image-card:hover {
-    transform: scale(1.1);
-    transition: all 500ms ease-in-out;
+transform: scale(1.1);
+transition: all 500ms ease-in-out;
 }
 .hero-image-text {
-    text-align: center;
-    margin-top: 25%;
-    max-width: 20ch;
+text-align: center;
+margin-top: 25%;
+max-width: 20ch;
 }
 
 /* Mindfulness */
 
 .mindfulness-about, .meditation-about {
-    height: 500px;
-    position: relative;
-    /* overflow: hidden; */
-    /* border-top: 1px solid grey;
-    border-bottom: 1px solid grey; */
+height: 500px;
+position: relative;
+/* overflow: hidden; */
+/* border-top: 1px solid grey;
+border-bottom: 1px solid grey; */
 }
 
 .mindfulness-about h2 {
-    position: absolute;
-    right: 10%;
-    top: 40%;
+position: absolute;
+right: 10%;
+top: 40%;
 }
 
 .mindfulness-about img {
-    height: 100%;
-    position: absolute;
-    left: 15%;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
+height: 100%;
+position: absolute;
+left: 15%;
+box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
 }
 
 .mindfulness-text {
-    line-height: 50%;
-    position: absolute;
-    top: 50%;
-    right: 10%;
+line-height: 50%;
+position: absolute;
+top: 50%;
+right: 10%;
 }
 
- .meditation-about h2 {
-     position: absolute;
-     left: 10%;
-     top: 40%;
-     
- }
-
- .meditation-text {
-    line-height: 50%;
+.meditation-about h2 {
     position: absolute;
-    top: 50%;
     left: 10%;
- }
-
- .meditation-about img {
-    height: 100%;
-    position: absolute;
-    right: 15%;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
- }
-
- /* Yoga */
-
- .yoga-about {
-     height: 500px;
-     text-align: center;
-     /* border-top: 1px solid grey; */
- }
-
- .yoga-about h2 {
-    padding-top: 10%;
-    padding-bottom: 2%;
+    top: 40%;
+    
 }
 
- .yoga-about h3 {
-     margin: 20px;
- }
+.meditation-text {
+line-height: 50%;
+position: absolute;
+top: 50%;
+left: 10%;
+}
 
- .yoga-about-section {
-     max-width: 20%;
-     display: inline-block;
-     text-align: center;
-     padding: 20px;
-     margin: 10px;
-     border-radius: 5%;
+.meditation-about img {
+height: 100%;
+position: absolute;
+right: 15%;
+box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
+}
 
-     transform: scale(1);
-     transition: all 500ms ease-in-out;
- }
+/* Yoga */
 
- .yoga-about-section:hover {
-     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .4), 0 5px 11px 0 rgba(0, 0, 0, .4);
-     transform: scale(1.05);
-     transition: all 500ms ease-in-out;
- }
-
- /* Footer */
-
- footer {
-     height: 100px;
-     color: white;
-     background-image: linear-gradient(to left, #A6A897, #43463E);
- }
-
- footer ul {
+.yoga-about {
+    height: 500px;
     text-align: center;
-    padding-top: 35px;
-    
- }
+    /* border-top: 1px solid grey; */
+}
 
- footer li {
-     display: inline-block;
-     margin: 0 20px;
- }
+.yoga-about h2 {
+padding-top: 10%;
+padding-bottom: 2%;
+}
 
- footer a {
-     text-decoration: none;
-     color: white;
- }
+.yoga-about h3 {
+    margin: 20px;
+}
 
- /* Meditation Page */
+.yoga-about-section {
+    max-width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5%;
 
- .top-image {
-     position: relative;
- }
+    transform: scale(1);
+    transition: all 500ms ease-in-out;
+}
 
- .top-image img {
-     width: 100%;
-     background-size: cover;
- }
+.yoga-about-section:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .4), 0 5px 11px 0 rgba(0, 0, 0, .4);
+    transform: scale(1.05);
+    transition: all 500ms ease-in-out;
+}
 
- .top-image-cover-text {
-     background-color: rgba(0, 0, 0, .4);
-     position: absolute;
-     right: 8%;
-     top: 10%;
-     color: white;
-     max-width: 25ch;
-     padding: 40px;
- }
+/* Footer */
 
- .meditation-cover-text h2 {
-    padding-bottom: 20px;
- }
+footer {
+    height: 100px;
+    color: white;
+    background-image: linear-gradient(to left, #A6A897, #43463E);
+}
 
- .meditation-steps {
-     height: 1000px;
- }
+footer ul {
+text-align: center;
+padding-top: 35px;
 
- hr {
-    border-top: 1px solid grey;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Meditation Page */
+
+.top-image {
+    position: relative;
+}
+
+.top-image img {
     width: 100%;
-    margin-top: 10px;
- }
+    background-size: cover;
+}
 
- .left {
-     float: left;
-     width: 40%;
-     height: 100%;
- }
+.top-image-cover-text {
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    right: 8%;
+    top: 10%;
+    color: white;
+    max-width: 25ch;
+    padding: 40px;
+}
 
- .left h2 {
-    padding: 10%;
- }
+.meditation-cover-text h2 {
+padding-bottom: 20px;
+}
 
- .left p, .left li {
-     max-width: 30ch;
-     padding-left: 10%;
-     padding-top: 5%;
- }
+.meditation-steps {
+    height: 1000px;
+}
 
- .right {
-     float: right;
-     column-count: 2;
-     width: 60%;
-     height: 100%;
- }
+hr {
+border-top: 1px solid grey;
+width: 100%;
+margin-top: 10px;
+}
 
- .right img {
-     width: 80%;
-     margin: 5%;
-     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4), 0 10px 10px 0 rgba(0, 0, 0, .4);
+.left {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
 
- }
+.left h2 {
+padding: 10%;
+}
 
- /* Nature */
+.left p, .left li {
+    max-width: 30ch;
+    padding-left: 10%;
+    padding-top: 5%;
+}
 
- iframe {
-     height: 300px;
-     width: 300px;
- }
+.right {
+    float: right;
+    column-count: 2;
+    width: 60%;
+    height: 100%;
+}
+
+.right img {
+    width: 80%;
+    margin: 5%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4), 0 10px 10px 0 rgba(0, 0, 0, .4);
+
+}
+
+/* Nature */
+
+.location {
+    height: 500px;
+    border: 1px solid grey;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    background-color: aliceblue;
+}
+
+section {
+    width: 50%;
+}
+
+.section-right {
+    float: right;
+    border: 1px solid grey;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
