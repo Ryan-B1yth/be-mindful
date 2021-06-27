@@ -155,6 +155,7 @@ nav a:hover {
 
  .yoga-about h2 {
     padding-top: 10%;
+    padding-bottom: 2%;
 }
 
  .yoga-about h3 {
@@ -167,15 +168,16 @@ nav a:hover {
      text-align: center;
      padding: 20px;
      margin: 10px;
+     border-radius: 5%;
 
      transform: scale(1);
      transition: all 500ms ease-in-out;
  }
 
  .yoga-about-section:hover {
-     transform: scale(1.1);
+     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .4), 0 5px 11px 0 rgba(0, 0, 0, .4);
+     transform: scale(1.05);
      transition: all 500ms ease-in-out;
-     
  }
 
  /* Footer */
