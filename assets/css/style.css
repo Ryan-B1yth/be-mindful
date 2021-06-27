@@ -201,3 +201,27 @@ nav a:hover {
      text-decoration: none;
      color: white;
  }
+
+ /* Meditation Page */
+
+ .top-image {
+     position: relative;
+ }
+
+ .top-image img {
+     width: 100%;
+     background-size: cover;
+ }
+
+ .meditation-cover-text {
+     position: absolute;
+     right: 10%;
+     top: 10%;
+     bottom: 10%;
+     color: white;
+     max-width: 25ch;
+ }
+
+ .meditation-cover-text h2 {
+    padding-bottom: 20px;
+ }
