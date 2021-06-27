@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     border: 0;
+    list-style-type: none;
 }
 body {
     margin: 0;
@@ -31,7 +32,6 @@ header h1, .logo {
 
 nav {
     /* background-color: lightblue; */
-    list-style-type: none;
     clear: both;
     float: right;
     position: absolute;
@@ -224,4 +224,26 @@ nav a:hover {
 
  .meditation-cover-text h2 {
     padding-bottom: 20px;
+ }
+
+ .meditation-steps {
+     height: 1000px;
+ }
+
+ .left {
+     float: left;
+     width: 40%;
+     height: 100%;
+ }
+
+ .right {
+     float: right;
+     width: 60%;
+     height: 100%;
+     background-color: aliceblue;
+ }
+
+ .meditation-steps h2, .meditation-steps li {
+     padding-left: 10%;
+     padding-top: 10%;
  }
