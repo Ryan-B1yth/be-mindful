@@ -215,13 +215,14 @@ nav a:hover {
      background-size: cover;
  }
 
- .meditation-cover-text {
+ .top-image-cover-text {
+     background-color: rgba(0, 0, 0, .4);
      position: absolute;
-     right: 10%;
+     right: 8%;
      top: 10%;
-     bottom: 10%;
      color: white;
      max-width: 25ch;
+     padding: 40px;
  }
 
  .meditation-cover-text h2 {
@@ -232,10 +233,26 @@ nav a:hover {
      height: 1000px;
  }
 
+ hr {
+    border-top: 1px solid grey;
+    width: 100%;
+    margin-top: 10px;
+ }
+
  .left {
      float: left;
      width: 40%;
      height: 100%;
+ }
+
+ .left h2 {
+    padding: 10%;
+ }
+
+ .left p, .left li {
+     max-width: 30ch;
+     padding-left: 10%;
+     padding-top: 5%;
  }
 
  .right {
@@ -243,7 +260,6 @@ nav a:hover {
      column-count: 2;
      width: 60%;
      height: 100%;
-     background-color: aliceblue;
  }
 
  .right img {
@@ -251,9 +267,4 @@ nav a:hover {
      margin: 5%;
      box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4), 0 10px 10px 0 rgba(0, 0, 0, .4);
 
- }
-
- .meditation-steps h2, .meditation-steps li {
-     padding-left: 10%;
-     padding-top: 10%;
  }
