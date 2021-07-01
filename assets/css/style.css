@@ -279,14 +279,12 @@ padding: 10%;
     background-color: aliceblue;
 }
 
-section {
-    width: 50%;
-}
 
 .section-right {
     float: right;
     border: 1px solid grey;
     height: 100%;
+    width: 50%;
 }
 
 
