@@ -273,7 +273,7 @@ padding: 10%;
 
 .location {
     height: 500px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     position: relative;
     overflow: hidden;
 }
@@ -283,7 +283,7 @@ padding: 10%;
 }
 
 .mountain {
-    background: url('../images/carson-foreman-NxLZmqsFIQA-unsplash.jpg');
+    background: url('../images/sarah-penney-R7JGetYmrWI-unsplash.jpg');
 }
 
 .beach {
@@ -302,8 +302,7 @@ padding: 10%;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(
-        rgb(151, 151, 151), 
-        rgba(151, 151, 151, .7) 30%,
+        rgba(151, 151, 151, .7),
         rgba(0, 0, 0, 0));
     color: white;
     text-align: center;
@@ -312,7 +311,6 @@ padding: 10%;
 .overlay-text, .overlay-text * {
     padding: 5% 10%;
     font-weight: 600;
-    /* max-width: 50ch; */
 }
 
 
