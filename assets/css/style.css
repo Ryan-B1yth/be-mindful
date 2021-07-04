@@ -279,11 +279,21 @@ padding: 10%;
 }
 
 .forest {
-    background: url('../images/geran-de-klerk-qzgN45hseN0-unsplash.jpg') no-repeat center center;
+    background: url('../images/geran-de-klerk-qzgN45hseN0-unsplash.jpg');
+}
+
+.mountain {
+    background: url('../images/carson-foreman-NxLZmqsFIQA-unsplash.jpg');
+}
+
+.beach {
+    background: url('../images/anton-sharov-_kkx1WekVRY-unsplash.jpg');
 }
 
 .section-image {
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     height: 100%;
     width: 100%;
 }
@@ -292,10 +302,10 @@ padding: 10%;
     width: 100%;
     height: 100%;
     background-image: linear-gradient(
-        rgba(255, 255, 255, 1), 
-        rgba(255, 255, 255, .7) 50%,
+        rgb(151, 151, 151), 
+        rgba(151, 151, 151, .7) 30%,
         rgba(0, 0, 0, 0));
-    color: black;
+    color: white;
     text-align: center;
 }
 
