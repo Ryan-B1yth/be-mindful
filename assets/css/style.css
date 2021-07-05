@@ -339,3 +339,32 @@ hr {
     font-weight: 600;
 }
 
+/* Media quieries
+
+Nav bar:
+
+Either turn into hamburger menu or add layered menu at top of page and fix header to top of page.
+
+
+Home page:
+
+1. Images need to be smaller
+2. Mindfulness text needs to take up less space
+3. Cards need to stack on-top of each other
+
+Meditation page:
+
+1. Cover text needs to shrink and move up
+2. 'How to' can take up whold width of screen
+3. Images can move down to bottom of page as a 'gallery'
+
+Yoga page:
+
+1. Images need centering or moving over as page shrinks
+2. Text width needs to shrink
+
+Nature page:
+
+1. Image height can shrink - not a priority
+
+*/
