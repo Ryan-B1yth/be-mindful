@@ -5,6 +5,7 @@
     margin: 0;
     border: 0;
     list-style-type: none;
+    line-height: 20px;
 }
 body {
     margin: 0;
@@ -15,7 +16,8 @@ body {
 header {
     clear: both;
     position: relative;
-    margin: 25px 0;
+    padding: 50px 0;
+    line-height: 50px;
 }
 
 header h1, .logo {
@@ -26,15 +28,20 @@ header h1, .logo {
     text-decoration: none;
     color: black;
     font-size: 300%;
-    padding-left: 25px;
+    margin-left: 25px;
+
+    position: absolute;
+    top: 40%;
 }
+
+/* Nav bar */
 
 nav {
     clear: both;
     float: right;
     position: absolute;
     right: 5%;
-    top: 10%;
+    top: 25%;
 }
 
 nav li {
@@ -93,18 +100,37 @@ nav a:hover {
 
 /* Mindfulness */
 
+.about-section {
+    padding-top: 2%;
+
+}
+
+.about-section p {
+    max-width: 40ch;
+}
+
 .mindfulness-about, .meditation-about {
     height: 500px;
     position: relative;
 }
 
-.mindfulness-about h2, .mindfulness-about img, .mindfulness-text, .meditation-about h2, .meditation-text, .meditation-about img {
+.mindfulness-text, .meditation-text, .mindfulness-about h2, .meditation-about h2, .mindfulness-about img, .meditation-about img {
     position: absolute;
 }
 
-.mindfulness-about h2 {
+.mindfulness-text {
+    top: 50%;
     right: 10%;
-    top: 40%;
+    padding-top: 5%;
+}
+
+.mindfulness-text h2 {
+    top: 0;
+    right: 0;
+}
+
+.mindfulness-text p {
+    text-align: right;
 }
 
 .mindfulness-about img {
@@ -113,21 +139,17 @@ nav a:hover {
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
 }
 
-.mindfulness-text {
-    line-height: 50%;
-    top: 50%;
-    right: 10%;
-}
-
-.meditation-about h2 {
-    top: 40%;
-    left: 10%;
-}
+/* Meditation */
 
 .meditation-text {
-    line-height: 50%;
     top: 50%;
     left: 10%;
+    padding-top: 5%;
+}
+
+.meditation-text h2 {
+    top: 0;
+    left: 0;
 }
 
 .meditation-about img {
@@ -193,6 +215,8 @@ footer a {
     color: white;
 }
 
+
+
 /* Meditation Page */
 
 .top-image {
@@ -214,8 +238,8 @@ footer a {
     padding: 40px;
 }
 
-.meditation-cover-text h2 {
-    padding-bottom: 20px;
+.top-image-cover-text h2 {
+    line-height: 30px;
 }
 
 .meditation-steps {
@@ -256,6 +280,16 @@ hr {
     margin: 5%;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4), 0 10px 10px 0 rgba(0, 0, 0, .4);
 
+}
+
+.links {
+    height: 100px;
+    text-align: center
+}
+
+.links li {
+    display: inline-block;
+    padding: 40px 50px 20px 50px;
 }
 
 /* Yoga */
@@ -368,3 +402,32 @@ Nature page:
 1. Image height can shrink - not a priority
 
 */
+
+@media screen and (max-width: 980px) {
+    .about-section {
+        text-align: center;
+    }
+
+    .about-section p {
+        max-width: 20ch;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .mindfulness-text, .meditation-text {
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .about-section img {
+        height: 50%;
+        top: 30%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-section img {
+        visibility: hidden;
+    }
+}
