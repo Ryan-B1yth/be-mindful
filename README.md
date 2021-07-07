@@ -42,12 +42,12 @@ Code not covered in the lessons leading up to this project were researched and f
 
 Fonts were taken from <a href='https://fonts.google.com/' target='_blank'>Google Fonts</a>.
 
-Hamburger menu made with help from <a href='https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell' target='_blank'>Kevin Powell</a>
+Hamburger menu made with help from <a href='https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell' target="_blank">Kevin Powell</a>
 
 ### Media
 
 ### Images provided are sourced from:
-<a href='https://unsplash.com' target='_blank'>Unsplash</a>
+<a href='https://unsplash.com' target="_blank">Unsplash</a>
 ### Artists: 
 Aiden Craver
 
