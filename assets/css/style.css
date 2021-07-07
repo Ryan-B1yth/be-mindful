@@ -20,8 +20,25 @@ header {
     line-height: 50px;
 }
 
-.mobile-menu {
-    visibility: hidden;
+.toggle {
+    display: none;
+}
+
+.toggle-label {
+    position: absolute;
+    right: 50px;
+    top: 41px;
+
+    display: none;
+    
+}
+
+.toggle-label span {
+    display: block;
+    background-color: black;
+    height: 2px; 
+    width: 20px;
+    margin: 3px 0;
 }
 
 header h1, .logo {
@@ -451,10 +468,33 @@ Nature page:
 
 @media screen and (max-width: 700px) {
     nav {
-        visibility: hidden;
+        display: none;
+    }
+    /* Adding in hambuger menu here */
+
+    .toggle-label {
+        display: unset;
     }
 
-    /* Adding in hambuger menu here */
+    .toggle:checked ~ nav li {
+        display: block;
+        text-align: center;
+    }
+
+    .toggle:checked ~ nav {
+        display: block;
+        right: 100px;
+        top: 20px;
+        z-index: 999;
+        background-color: white;
+        width: 80%;
+    }
+
+    
+
+    
+
+    
 }
 
 @media screen and (max-width: 520px) {
