@@ -20,6 +20,10 @@ header {
     line-height: 50px;
 }
 
+.mobile-menu {
+    visibility: hidden;
+}
+
 header h1, .logo {
     font-family: Dancing Script, sans-serif;
 }
@@ -443,6 +447,14 @@ Nature page:
         margin: 0 auto;
     }
 
+}
+
+@media screen and (max-width: 700px) {
+    nav {
+        visibility: hidden;
+    }
+
+    /* Adding in hambuger menu here */
 }
 
 @media screen and (max-width: 520px) {
