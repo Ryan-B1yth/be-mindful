@@ -303,16 +303,6 @@ hr {
 
 }
 
-.links {
-    height: 100px;
-    text-align: center
-}
-
-.links li {
-    display: inline-block;
-    padding: 40px 50px 20px 50px;
-}
-
 /* Yoga */
 
 .yoga-panels {
@@ -440,6 +430,12 @@ Nature page:
     }
 }
 
+@media screen and (max-width: 900px) {
+    .top-image-cover-text {
+        top: 40px;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .about-section img {
         height: 50%;
@@ -464,6 +460,22 @@ Nature page:
         margin: 0 auto;
     }
 
+    .meditation-steps {
+        height: auto;
+    }
+
+    .right img {
+        display: none;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left * {
+        width: 99%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -490,17 +502,14 @@ Nature page:
         width: 80%;
     }
 
-    
-
-    
-
-    
+    .meditation-steps {
+        height: 900px;
+    }
 }
 
 @media screen and (max-width: 520px) {
     .about-section img {
         visibility: hidden;
     }
-
-    
+ 
 }
