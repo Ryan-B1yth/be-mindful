@@ -294,11 +294,12 @@ hr {
     column-count: 2;
     width: 60%;
     height: 100%;
+    overflow: hidden;
 }
 
 .right img {
     width: 80%;
-    margin: 5%;
+    margin: 10px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4), 0 10px 10px 0 rgba(0, 0, 0, .4);
     overflow: hidden;
 
@@ -417,11 +418,6 @@ Nature page:
 
 */
 
-@media screen and (min-width: 1449px) {
-    .hide {
-        display: none;
-    }
-}
 
 @media screen and (min-width: 1200px) {
     body {
@@ -481,9 +477,9 @@ Nature page:
         height: auto;
     }
 
-    .right img {
+    /* .right img {
         display: none;
-    }
+    } */
 
     .left {
         width: 100%;
