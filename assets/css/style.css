@@ -421,6 +421,11 @@ Nature page:
 
 */
 
+@media screen and (min-width: 1700px) {
+    .meditation-steps {
+        height: 1500px;
+    }
+}
 
 @media screen and (min-width: 1200px) {
     body {
@@ -480,9 +485,9 @@ Nature page:
         height: auto;
     }
 
-    /* .right img {
+    .right {
         display: none;
-    } */
+    }
 
     .left {
         width: 100%;
@@ -492,10 +497,6 @@ Nature page:
     .left * {
         width: 99%;
         margin: 0 auto;
-    }
-
-    .right {
-        display: none;
     }
 
     body {
@@ -510,7 +511,8 @@ Nature page:
     }
 
     .top-image-cover-text {
-        display: block;
+        display: none;
+        /* display: block;
         top: 0;
         left: 0;
         width: 100%;
@@ -518,8 +520,10 @@ Nature page:
         padding: 0;
         padding-left: 40%;
         padding-right: 40%;
-        padding-top: 20px;
+        padding-top: 20px; */
     }
+
+
 }
 
 @media screen and (max-width: 700px) {
@@ -551,9 +555,28 @@ Nature page:
     }
 }
 
+@media screen and (max-width: 660px) {
+    .image-column {
+        display: none;
+    }
+
+    .yoga-information {
+        width: 99%;
+        margin: 0 auto;
+    }
+
+    body {
+        height: 1300px;
+    }
+}
+
 @media screen and (max-width: 520px) {
     .about-section img {
         visibility: hidden;
+    }
+
+    .meditation-steps {
+        height: 800px;
     }
  
 }
