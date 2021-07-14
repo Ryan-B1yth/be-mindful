@@ -476,7 +476,8 @@ Nature page:
         max-width: 80%;
         /* padding: 0 20%;  */
         width: 99%;
-        margin: 0 auto;
+        padding: 5px;
+        margin: 10px auto;
     }
 
     .yoga-about p {
@@ -509,6 +510,7 @@ Nature page:
 
     footer {
         width: 100%;
+        margin-top: 50px;
     }
 
     .top-image-cover-text {
@@ -545,9 +547,10 @@ Nature page:
     .toggle:checked ~ nav {
         display: block;
         right: 100px;
-        top: 20px;
+        top: 20px;;
         z-index: 999;
         background-color: white;
+        box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
         width: 80%;
     }
 
