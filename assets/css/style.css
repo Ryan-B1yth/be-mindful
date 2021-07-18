@@ -510,7 +510,7 @@ Nature page:
 
     footer {
         width: 100%;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .top-image-cover-text {
@@ -596,4 +596,10 @@ Nature page:
     .yoga-panels {
         height: 1400px;
     }
+}
+
+@media screen and (max-width: 360px) {
+    .toggle-label {
+        right: 10%;
+    }   
 }
