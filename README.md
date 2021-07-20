@@ -63,18 +63,10 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 ### Existing features
 
-Landing page:  
-Images and animations on hover for certain items.
-
-Meditation page: 
-Static page with images and list content.
-
-Yoga page:
-Layout as intended. Dummy text at the moment.
-
-Nature page:
-Three sections: forest, mountains, beach. 
-Images are there with dummy text.
+<ul>
+    <li>Interactive elements</li>
+    <li>Responsive design for all screen sizes.</li>
+</ul>
 
 ### Features to be implimented
 
@@ -84,13 +76,36 @@ Explanations for why yoga is beneficial for health and possibly links to "how to
 
 All dummy text to be replaced with actual content.
 
+### Languages Used
+
+<ul>
+    <li>HTML5</li>
+    <li>CSS3</li>
+</ul>
+
+### Frameworks used
+
+<ul>
+    <li><a href='https://fonts.google.com/' target='_blank'>Google Fonts</a></li>
+    <li>Git</li>
+    <li>GitHub</li>
+</ul>
 
 ### Testing
 
 The original project was constructed on a laptop with a screen size of 12.3 inches. Once completed, media queries will be added to accomodate larger and smaller screen sizes.
 
+<li><a href='https://validator.w3.org/#validate_by_input'>W3C Markup Validator</a></li>
+<li><a href='https://jigsaw.w3.org/css-validator/#validate_by_input'>W3C CSS Validator</a></li>
+
 ### Known bugs
 Meditation page under 720px width, a white band appears to the right of the screen push the whole content over. 
+
+### Further testing
+<ul>
+    <li>The site was tested on Google Chrome using their developer tools.</li>
+    <li>The site was viewed on multiple devices of varying screen sizes.</li>
+</ul>
 
 ## Credits 
 
@@ -103,15 +118,34 @@ Meditation page under 720px width, a white band appears to the right of the scre
     </li>
     <li>Content
         <ul>
-            <li></li>
+            <li>All content was written and research by the developer.</li>
         </ul>
     </li>
     <li>Media
         <ul>
             <li> Images provided are sourced from:
 <a href='https://unsplash.com' target="_blank">Unsplash</a>
-Artists: 
+Artists: <strong>LINK TO THEM</strong>
+
 Aiden Craver
+
+Annie Spratt
+
+Anton Sharov
+
+Carson Foreman
+
+Elena Kloppenburd
+
+Geran de Klerk
+
+Highbabe
+
+Joran Nix
+
+Joyce G
+
+Kaylee Garrett
 
 Le Minh Phuong
 
@@ -119,19 +153,24 @@ Mario Dobelmann
 
 Mathilde Langevin
 
-(Continue)</li>
+Omid Armin
+
+Ray Kakte
+
+Sarah Brown
+
+Sarah Penney
+
+</li>
         </ul>
     </li>
     <li>Acknowledgements
         <ul>
             <li>Hamburger menu made with help from <a href='https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell' target="_blank">Kevin Powell</a>.</li>
+            <li>Tutor support at Code Institute for all their support throught.</li>
+            <li>Friends and family for viewing the site and giving feedback.</li>
         </ul>
     </li>
 </ul>
-
-
-
-
-Fonts were taken from <a href='https://fonts.google.com/' target='_blank'>Google Fonts</a>.
 
 
