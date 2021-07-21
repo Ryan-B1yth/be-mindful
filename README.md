@@ -74,10 +74,6 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 ### Features to be implimented
 
-Yoga page:
-Plan:
-Explanations for why yoga is beneficial for health and possibly links to "how to" websites and/or videos.
-
 All dummy text to be replaced with actual content.
 
 ### Languages Used
@@ -97,13 +93,15 @@ All dummy text to be replaced with actual content.
 
 ### Testing
 
-The original project was constructed on a laptop with a screen size of 12.3 inches. Once completed, media queries will be added to accomodate larger and smaller screen sizes.
+The original project was constructed on a laptop with a screen size of 12.3 inches.
 
 <li><a href='https://validator.w3.org/#validate_by_input'>W3C Markup Validator</a></li>
 <li><a href='https://jigsaw.w3.org/css-validator/#validate_by_input'>W3C CSS Validator</a></li>
 
 ### Known bugs
-Meditation page under 720px width, a white band appears to the right of the screen push the whole content over. 
+<ul>
+    <li>On the meditation page, under 720px width, a white band appears to the right of the screen that pushes all the content over.</li>
+</ul>
 
 ### Further testing
 <ul>
@@ -117,7 +115,7 @@ Meditation page under 720px width, a white band appears to the right of the scre
 <ul>
     <li>Code
         <ul>
-            <li>Code not covered in the lessons leading up to this project were researched and found on Stack Overflow and W3Schools (be more specific).</li>
+            <li>Code not covered in the lessons leading up to this project were researched and found on <a href='https://stackoverflow.com/'>Stack Overflow</a> and <a href='https://www.w3schools.com/tags/default.asp'>W3Schools.</a></li>
         </ul>
     </li>
     <li>Content
@@ -127,43 +125,43 @@ Meditation page under 720px width, a white band appears to the right of the scre
     </li>
     <li>Media
         <ul>
-            <li> Images provided are sourced from:
-<a href='https://unsplash.com' target="_blank">Unsplash</a>
-Artists: <strong>LINK TO THEM</strong>
+            <li> Images provided are sourced from: <a href='https://unsplash.com' target="_blank">Unsplash</a>
 
-Aiden Craver
+### Artists:
 
-Annie Spratt
+<a href='https://unsplash.com/@slaiden'>Aiden Craver</a>
 
-Anton Sharov
+<a href='https://unsplash.com/@anniespratt'>Annie Spratt</a>
 
-Carson Foreman
+<a href='https://unsplash.com/@antonsharov'>Anton Sharov</a>
 
-Elena Kloppenburd
+<a href='https://unsplash.com/@carsonforemanphotos'>Carson Foreman</a>
 
-Geran de Klerk
+<a href='https://unsplash.com/@elli19'>Elena Kloppenburg</a>
 
-Highbabe
+<a href='https://unsplash.com/@gerandeklerk'>Geran de Klerk</a>
 
-Joran Nix
+<a href='https://unsplash.com/@highbabeuk'>Highbabe</a>
 
-Joyce G
+<a href='https://unsplash.com/@jordannix'>Jordan Nix</a>
 
-Kaylee Garrett
+<a href='https://unsplash.com/@joyce_'>Joyce G</a>
 
-Le Minh Phuong
+<a href='https://unsplash.com/@realkayls'>Kaylee Garrett</a>
 
-Mario Dobelmann
+<a href='https://unsplash.com/@leeminfu'>Le Minh Phuong</a>
 
-Mathilde Langevin
+<a href='https://unsplash.com/@mariodobelmann'>Mario Dobelmann</a>
 
-Omid Armin
+<a href='https://unsplash.com/@mathildelangevin'>Mathilde Langevin</a>
 
-Ray Kakte
+<a href='https://unsplash.com/@omidarmin'>Omid Armin</a>
 
-Sarah Brown
+<a href='https://unsplash.com/@raykakte'>Ray Kakte</a>
 
-Sarah Penney
+<a href='https://unsplash.com/@sweetpagesco'>Sarah Brown</a>
+
+<a href='https://unsplash.com/@pennywithaney'>Sarah Penney </a>
 
 </li>
         </ul>
