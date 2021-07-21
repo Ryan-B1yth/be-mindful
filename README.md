@@ -52,9 +52,13 @@ Before you is a mindfulness and meditation website, designed to provide informat
     <li>Wireframes
         <ul>
             <li>Home page</li>
+            <img src='assets/images/index-wf.jpg'>
             <li>Meditation page</li>
+            <img src='assets/images/meditation-wf.jpg'>
             <li>Yoga page</li>
+            <img src='assets/images/yoga-wf.jpg'>
             <li>Nature page</li>
+            <img src='assets/images/nature-wf.jpg'>
         </ul>
     </li>
 </ul>
