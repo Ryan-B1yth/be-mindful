@@ -115,7 +115,7 @@ The original project was constructed on a laptop with a screen size of 12.3 inch
 <ul>
     <li>Code
         <ul>
-            <li>Code not covered in the lessons leading up to this project were researched and found on <a href='https://stackoverflow.com/'>Stack Overflow</a> and <a href='https://www.w3schools.com/tags/default.asp'>W3Schools.</a></li>
+            <li>Code not covered in the lessons leading up to this project were researched and found on <a href='https://stackoverflow.com/'>Stack Overflow</a> and <a href='https://www.w3schools.com/tags/default.asp'>W3Schools</a>. Specifically <a href='https://www.w3schools.com/howto/howto_css_center-vertical.asp'>centering content</a>.</li>
         </ul>
     </li>
     <li>Content
