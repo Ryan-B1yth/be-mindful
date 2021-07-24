@@ -7,6 +7,7 @@
     list-style-type: none;
     line-height: 20px;
 }
+
 body {
     width: 100%;
     height: 100%;
@@ -254,8 +255,6 @@ footer a {
     color: white;
 }
 
-
-
 /* Meditation Page */
 
 .top-image {
@@ -411,35 +410,7 @@ hr {
     text-decoration: underline;
 }
 
-/* Media quieries
-
-Nav bar:
-
-Either turn into hamburger menu or add layered menu at top of page and fix header to top of page.
-
-
-Home page:
-
-1. Images need to be smaller
-2. Mindfulness text needs to take up less space
-3. Cards need to stack on-top of each other
-
-Meditation page:
-
-1. Cover text needs to shrink and move up
-2. 'How to' can take up whold width of screen
-3. Images can move down to bottom of page as a 'gallery'
-
-Yoga page:
-
-1. Images need centering or moving over as page shrinks
-2. Text width needs to shrink
-
-Nature page:
-
-1. Image height can shrink - not a priority
-
-*/
+/* Media quieries */
 
 @media screen and (min-width: 1700px) {
     .meditation-steps {
@@ -491,7 +462,6 @@ Nature page:
     .yoga-about-section {
         display: block;
         max-width: 80%;
-        /* padding: 0 20%;  */
         width: 99%;
         padding: 5px;
         margin: 10px auto;
@@ -527,20 +497,10 @@ Nature page:
 
     footer {
         width: 100%;
-        /* margin-top: 50px; */
     }
 
     .top-image-cover-text {
         display: none;
-        /* display: block;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        padding-left: 40%;
-        padding-right: 40%;
-        padding-top: 20px; */
     }
 
 
@@ -550,7 +510,8 @@ Nature page:
     nav {
         display: none;
     }
-    /* Adding in hambuger menu here */
+
+    /* Kevin Powell hambuger menu here */
 
     .toggle-label {
         display: unset;
@@ -570,10 +531,7 @@ Nature page:
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
         width: 80%;
     }
-
-    /* .meditation-steps {
-        height: 900px;
-    } */
+    /* End of Kevin Powell hamburger menu */
 }
 
 @media screen and (max-width: 660px) {
@@ -587,7 +545,6 @@ Nature page:
     }
 
     .yoga-information {
-        /* display: block; */
         right: 0;
         width: 100%;
         height: 100%;

@@ -3,6 +3,7 @@
 ![4 size view of the website's home page](assets/images/amiresponsive-portfolio1.PNG)
 
 This is my first project for Code Institute. 
+You can view the live site [here](Add site link here).
 
 Before you is a mindfulness and meditation website, designed to provide information to the user on how to live a more healthy and positive minded lifestyle through various means. The landing page gives a brief explanation of mindfulness, meditation, and yoga. The meditation page has a 'how to' walkthrough if you are a beginner at the practice. The yoga page goes into detail about the benefits of the practice and links to sites and/or videos for beginners and intermediates. 
 
@@ -155,4 +156,4 @@ The site was viewed on multiple devices of varying screen sizes.
     
 - Tutor support at Code Institute for all their support throught.
 
--Friends and family for viewing the site and giving feedback.
+- Friends and family for viewing the site and giving feedback.
