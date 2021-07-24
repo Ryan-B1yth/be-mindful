@@ -115,11 +115,17 @@ nav a:hover {
 .hero-image-card:hover {
     transform: scale(1.1);
     transition: all 500ms ease-in-out;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .hero-image-text {
     text-align: center;
     margin-top: 25%;
     max-width: 20ch;
+}
+
+.hero-image-text p {
+    padding: 95px 10px;
+    font-weight: 600;
 }
 
 /* Mindfulness */
