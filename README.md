@@ -6,173 +6,145 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 ## User Experience (UX)
 
-<ul>
-    <li>User Stories
-        <ul>
-            <li>First time visitor goals:
-                <ol>
-                    <li>To be able to find easily accessable information about mindfulness.</li>
-                    <li>To find links and/or directions on how to practice meditation and yoga.</li>
-                    <li>To easily navigate a website on any device I own.</li>
-                </ol>
-            </li>
-            <li>Returning visitor goals
-                <ol>
-                    <li>To easily find my way back to the information I found previously.</li>
-                    <li>To be able to share the website with people and have them easily use it without direction from me.</li>
-                </ol>
-            </li>
-            <li>Frequent user goals
-                <ol>
-                    <li>To see updates to the website with better information and links.</li>
-                    <li>In the future, to be able to participate in discussions revolving around users experience with mindfulness and meditation.</li>
-                </ol>
-            </li>
-        </ul>
-    </li>
-    <li>Design
-        <ul>
-            <li>Color Scheme
-                <ul>
-                    <li>Simple, clean, calm, white background with colourful images overlayed to look as though they are floating. </li>
-                </ul>
-            </li>
-            <li>Typography
-                <ul>
-                    <li>An easy to read typeface used throughout following the calm motif. </li>
-                </ul>
-            </li>
-            <li>Imagery
-                <ul>
-                    <li>Colourful, vibrant images depicting various scenes to elicit calm feelings in the user.</li>
-                </ul>
-            </li>
-        </ul>
-    </li>
-    <li>Wireframes
-        <ul>
-            <li>Home page</li>
-            <img src='assets/images/index-wf.jpg' height='200px'>
-            <li>Meditation page</li>
-            <img src='assets/images/meditation-wf.jpg' height='200px'>
-            <li>Yoga page</li>
-            <img src='assets/images/yoga-wf.jpg' height='200px'>
-            <li>Nature page</li>
-            <img src='assets/images/nature-wf.jpg' height='200px'>
-        </ul>
-    </li>
-</ul>
+### User Stories           
+- First time visitor goals:
+  - To be able to find easily accessable information about mindfulness.
+
+  - To find links and/or directions on how to practice meditation and yoga.
+
+  - To easily navigate a website on any device I own.
+
+### Returning visitor goals
+
+  - To easily find my way back to the information I found previously.
+
+  - To be able to share the website with people and have them easily use it without direction from me.
+
+### Frequent user goals
+
+  - To see updates to the website with better information and links.
+
+  - In the future, to be able to participate in discussions revolving around users experience with mindfulness and meditation.
+
+
+
+### Design
+- Color Scheme
+  - Simple, clean, calm, white background with colourful images overlayed to look as though they are floating. 
+
+- Typography
+  - An easy to read typeface used throughout following the calm motif.
+
+- Imagery
+  - Colourful, vibrant images depicting various scenes to elicit calm feelings in the user.
+
+- Wireframes 
+  - Home page
+    
+    <img src='assets/images/index-wf.jpg' height='200px'>
+  - Meditation page
+    
+    <img src='assets/images/meditation-wf.jpg' height='200px'>
+  - Yoga page
+    
+    <img src='assets/images/yoga-wf.jpg' height='200px'>
+  - Nature page
+    
+    <img src='assets/images/nature-wf.jpg' height='200px'>
+
+<!-- HTML used instead of markdown to control image size as images were very large when testing. -->
 
 ## Features
 
 ### Existing features
 
-<ul>
-    <li>Interactive elements</li>
-    <li>Responsive design for all screen sizes.</li>
-</ul>
+- Interactive elements
+- Responsive design for all screen sizes.
+
 
 ### Features to be implimented
 
-All dummy text to be replaced with actual content.
+- 
 
 ### Languages Used
 
-<ul>
-    <li>HTML5</li>
-    <li>CSS3</li>
-</ul>
+- HTML5
+- CSS3
 
 ### Frameworks used
 
-<ul>
-    <li><a href='https://fonts.google.com/' target='_blank'>Google Fonts</a></li>
-    <li>Git</li>
-    <li>GitHub</li>
-</ul>
+- [Google Fonts](https://fonts.google.com/)
+- Git
+- GitHub
 
 ### Testing
 
-The original project was constructed on a laptop with a screen size of 12.3 inches.
+- The original project was constructed on a laptop with a screen size of 12.3 inches.
 
-<li><a href='https://validator.w3.org/#validate_by_input'>W3C Markup Validator</a></li>
-<li><a href='https://jigsaw.w3.org/css-validator/#validate_by_input'>W3C CSS Validator</a></li>
+- [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Known bugs
-<ul>
-    <li>On the meditation page, under 720px width, a white band appears to the right of the screen that pushes all the content over.</li>
-</ul>
+- On the meditation page, under 720px width, a white band appears to the right of the screen that pushes all the content over.
+
 
 ### Further testing
-<ul>
-    <li>The site was tested on Google Chrome using their developer tools.</li>
-    <li>The site was viewed on multiple devices of varying screen sizes.</li>
-</ul>
+- The site was tested on Google Chrome using their developer tools.
+The site was viewed on multiple devices of varying screen sizes.
 
 ## Credits 
 
 ### Content
-<ul>
-    <li>Code
-        <ul>
-            <li>Code not covered in the lessons leading up to this project were researched and found on <a href='https://stackoverflow.com/'>Stack Overflow</a> and <a href='https://www.w3schools.com/tags/default.asp'>W3Schools</a>. Specifically <a href='https://www.w3schools.com/howto/howto_css_center-vertical.asp'>centering content</a>.</li>
-        </ul>
-    </li>
-    <li>Content
-        <ul>
-            <li>All content was written and research by the developer.</li>
-        </ul>
-    </li>
-    <li>Media
-        <ul>
-            <li> Images provided are sourced from: <a href='https://unsplash.com' target="_blank">Unsplash</a>
+- Code
+  - Code not covered in the lessons leading up to this project were researched and found on [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/tags/default.asp). Specifically [centering content](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
+
+- Content
+  - All content was written and research by the developer.
+
+- Media
+  - Images provided are sourced from: [Unsplash](https://unsplash.com)
 
 ### Artists:
 
-<a href='https://unsplash.com/@slaiden'>Aiden Craver</a>
+[Aiden Craver](https://unsplash.com/@slaiden)
 
-<a href='https://unsplash.com/@anniespratt'>Annie Spratt</a>
+[Annie Spratt](https://unsplash.com/@anniespratt)
 
-<a href='https://unsplash.com/@antonsharov'>Anton Sharov</a>
+[Anton Sharov](https://unsplash.com/@antonsharov)
 
-<a href='https://unsplash.com/@carsonforemanphotos'>Carson Foreman</a>
+[Carson Foreman](https://unsplash.com/@carsonforemanphotos)
 
-<a href='https://unsplash.com/@elli19'>Elena Kloppenburg</a>
+[Elena Kloppenburg](https://unsplash.com/@elli19)
 
-<a href='https://unsplash.com/@gerandeklerk'>Geran de Klerk</a>
+[Geran de Klerk](https://unsplash.com/@gerandeklerk)
 
-<a href='https://unsplash.com/@highbabeuk'>Highbabe</a>
+[Highbabe](https://unsplash.com/@highbabeuk)
 
-<a href='https://unsplash.com/@jordannix'>Jordan Nix</a>
+[Jordan Nix](https://unsplash.com/@jordannix)
 
-<a href='https://unsplash.com/@joyce_'>Joyce G</a>
+[Joyce G](https://unsplash.com/@joyce_)
 
-<a href='https://unsplash.com/@realkayls'>Kaylee Garrett</a>
+[Kaylee Garret](https://unsplash.com/@realkayls)
 
-<a href='https://unsplash.com/@leeminfu'>Le Minh Phuong</a>
+[Le Minh Phuong](https://unsplash.com/@leeminfu)
 
-<a href='https://unsplash.com/@mariodobelmann'>Mario Dobelmann</a>
+[Mario Dobelmann](https://unsplash.com/@mariodobelmann)
 
-<a href='https://unsplash.com/@mathildelangevin'>Mathilde Langevin</a>
+[Mathilde Langevin](https://unsplash.com/@mathildelangevin)
 
-<a href='https://unsplash.com/@omidarmin'>Omid Armin</a>
+[Omid Armin](https://unsplash.com/@omidarmin)
 
-<a href='https://unsplash.com/@raykakte'>Ray Kakte</a>
+[Ray Kakte](https://unsplash.com/@raykakte)
 
-<a href='https://unsplash.com/@sweetpagesco'>Sarah Brown</a>
+[Sarah Brown](https://unsplash.com/@sweetpagesco)
 
-<a href='https://unsplash.com/@pennywithaney'>Sarah Penney </a>
+[Sarah Penney](https://unsplash.com/@pennywithaney)
 
-</li>
-        </ul>
-    </li>
-    <li>Acknowledgements
-        <ul>
-            <li>Hamburger menu made with help from <a href='https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell' target="_blank">Kevin Powell</a>.</li>
-            <li>Tutor support at Code Institute for all their support throught.</li>
-            <li>Friends and family for viewing the site and giving feedback.</li>
-        </ul>
-    </li>
-</ul>
+### Acknowledgements
 
+- Hamburger menu made with help from [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell).
+    
+- Tutor support at Code Institute for all their support throught.
 
+-Friends and family for viewing the site and giving feedback.
