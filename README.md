@@ -17,13 +17,13 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
   - To easily navigate a website on any device I own.
 
-### Returning visitor goals
+- Returning visitor goals
 
   - To easily find my way back to the information I found previously.
 
   - To be able to share the website with people and have them easily use it without direction from me.
 
-### Frequent user goals
+- Frequent user goals
 
   - To see updates to the website with better information and links.
 
@@ -36,7 +36,7 @@ Before you is a mindfulness and meditation website, designed to provide informat
   - Simple, clean, calm, white background with colourful images overlayed to look as though they are floating. 
 
 - Typography
-  - An easy to read typeface used throughout following the calm motif.
+  - An easy to read typeface Barlow is used throughout the site following a calm motif. Dancing Script was used for the logo so that it would stand out against the reast of the site. 
 
 - Imagery
   - Colourful, vibrant images depicting various scenes to elicit calm feelings in the user.
@@ -106,7 +106,7 @@ The site was viewed on multiple devices of varying screen sizes.
 
 ### Content
 - Code
-  - Code not covered in the lessons leading up to this project were researched and found on [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/tags/default.asp). Specifically [centering content](https://www.w3schools.com/howto/howto_css_center-vertical.asp).
+  - Code not covered in the lessons leading up to this project were researched and found on [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/tags/default.asp). Specifically [centering content](https://www.w3schools.com/howto/howto_css_center-vertical.asp) and [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
 
 - Content
   - All content was written and research by the developer.
