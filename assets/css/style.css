@@ -34,7 +34,6 @@ header {
     top: 41px;
 
     display: none;
-    
 }
 
 .toggle-label span {
@@ -103,8 +102,8 @@ nav a:hover {
 .hero-image-card {
     background-color: rgba(255, 255, 255, 0.6);
     display: inline-block;
+    
     position: absolute;
-
     left: 20%;
     top: 10%;
     bottom: 10%;
@@ -133,7 +132,6 @@ nav a:hover {
 
 .about-section {
     padding-top: 2%;
-
 }
 
 .about-section p {
@@ -235,6 +233,7 @@ footer {
     height: 100px;
     width: 100%;
     color: white;
+    /* Linear gradient made with help from W3Schools */
     background-image: linear-gradient(to left, #A6A897, #43463E);
 }
 
@@ -580,7 +579,7 @@ form p {
     .toggle:checked ~ nav {
         display: block;
         right: 100px;
-        top: 20px;;
+        top: 20px;
         z-index: 999;
         background-color: white;
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
