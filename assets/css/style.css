@@ -506,6 +506,10 @@ form p {
     .left p {
         padding-left: 0;
     }
+
+    .right {
+        gap: 0;
+    }
 }
 
 @media screen and (max-width: 720px) {
