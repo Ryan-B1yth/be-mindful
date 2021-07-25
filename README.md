@@ -1,4 +1,4 @@
-# Hello and Welcome!
+# Be Mindful 
 
 ![4 size view of the website's home page](assets/images/amiresponsive-portfolio1.PNG)
 
@@ -63,6 +63,41 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 - Interactive elements
 - Responsive design for all screen sizes.
+
+### Landing Page
+
+ ![Landing page](assets/images/home-page.PNG)
+
+ - The landing page loads with a calming image and immediate access to the navigation. The overlay gives the user the reason behind the website and acts like a signpost to the rest of the page by using an elipses to finish the sentence.
+
+ ![Lower landing page](assets/images/lower-home-page.PNG)
+
+- The bottom of the landing page has interactive cards as the user hovers over them giving a little information regarding yoga to encourage the user to learn more by navigating to the relevant page.
+- The footer follows a similar colour scheme to the hero image to tie the page together and give links to social media and access to the news letter sign up page.
+
+ ### Meditation page
+
+ ![Meditation page](assets/images/meditation-page.PNG)
+
+ - The meditation page has a gallery of images to provide context and a step by step guide on how to meditate for beginners. 
+
+ ### Yoga page
+
+ ![Yoga page](assets/images/yoga-page.PNG)
+
+ - THe yoga page has various information from history to practicing. Images to the side provide context and follow the design motif of the site.
+
+### Nature page
+
+![Nature page](assets/images/nature-page.PNG)
+
+- The nature page has some basic information with links to external sites where the user can learn more.
+
+###
+
+![Sign up page](assets/images/sign-up-page.PNG)
+
+- The sign-up page is for a theoretical news letter the user could have access to.
 
 ### Features to be implimented
 
