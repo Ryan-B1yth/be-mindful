@@ -39,7 +39,7 @@ Before you is a mindfulness and meditation website, designed to provide informat
   - An easy to read typeface Barlow is used throughout the site following a calm motif. Dancing Script was used for the logo so that it would stand out against the reast of the site. 
 
 - Imagery
-  - Colourful, vibrant images depicting various scenes to elicit calm feelings in the user.
+  - Colourful, vibrant images contrasting a white background to elicit calm feelings in the user.
 
 - Wireframes 
   - Home page
@@ -63,7 +63,6 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 - Interactive elements
 - Responsive design for all screen sizes.
-
 
 ### Features to be implimented
 
@@ -93,7 +92,7 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 
 ### Further testing
-- The site was tested on Google Chrome using their developer tools.
+- The site was tested on Google Chrome using their developer tools and viewed on Firefox and Microsoft Edge to ensure it worked across multiple platforms.
 The site was viewed on multiple devices of varying screen sizes.
 
 - Google Chromes DevTools Lighthouse:
@@ -106,13 +105,13 @@ The site was viewed on multiple devices of varying screen sizes.
 
 ### Content
 - Code
-  - Code not covered in the lessons leading up to this project were researched and found on [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/tags/default.asp). Specifically [centering content](https://www.w3schools.com/howto/howto_css_center-vertical.asp) and [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp).
+  - Code not covered in the lessons leading up to this project were researched and found on [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/tags/default.asp). Specifically [centering content](https://www.w3schools.com/howto/howto_css_center-vertical.asp), [box-shadow](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp), and [linear gradients](https://www.w3schools.com/css/css3_gradients.asp).
 
 - Content
-  - All content was written and research by the developer.
+  - All content was written and researched by the developer.
 
 - Media
-  - Images provided are sourced from: [Unsplash](https://unsplash.com)
+  - Images provided are sourced from [Unsplash](https://unsplash.com):
 
 ### Artists:
 
