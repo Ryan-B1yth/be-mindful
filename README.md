@@ -5,7 +5,7 @@
 This is my first project for Code Institute. 
 You can view the live site [here](Add site link here).
 
-Before you is a mindfulness and meditation website, designed to provide information to the user on how to live a more healthy and positive minded lifestyle through various means. The landing page gives a brief explanation of mindfulness, meditation, and yoga. The meditation page has a 'how to' walkthrough if you are a beginner at the practice. The yoga page goes into detail about the benefits of the practice and links to sites and/or videos for beginners and intermediates. 
+Be Mindful is a mindfulness and meditation website, designed to provide information to the user on how to live a more healthy and positive minded lifestyle through various means. The landing page gives a brief explanation of mindfulness, meditation, and yoga. The meditation page has a 'how to' walkthrough if you are a beginner at the practice. The yoga page goes into detail about the benefits of the practice and links to sites and/or videos for beginners and intermediates. 
 
 ## User Experience (UX)
 
@@ -116,19 +116,17 @@ Before you is a mindfulness and meditation website, designed to provide informat
 
 ### Testing
 
-- The original project was constructed on a laptop with a screen size of 12.3 inches.
+- The original project was constructed on a laptop with a screen size of 12.3 inches. The code was also put through W3C validators and passed through without any issues.
 
-- [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+  - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
 
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 ### Known bugs
-- On the meditation page, under 720px width, a white band appears to the right of the screen that pushes all the content over.
-
+- On the meditation page, under 720px width, a white band appeared to the right of the screen that pushed all the content over. Although generally hidden on smaller screen, it could be scrolled to. Using [this comment](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) from Stack Overflow, I added the necessary code into my own to fix the bug.
 
 ### Further testing
-- The site was tested on Google Chrome using their developer tools and viewed on Firefox and Microsoft Edge to ensure it worked across multiple platforms.
-The site was viewed on multiple devices of varying screen sizes.
+- The site was tested on Google Chrome using their developer tools and viewed on Firefox and Microsoft Edge to ensure it worked across multiple platforms. The site was also viewed on multiple devices of varying screen sizes.
 
 - Google Chromes DevTools Lighthouse:
   - Desktop
