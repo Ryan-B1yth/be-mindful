@@ -26,6 +26,10 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
   - To recieve emails from the site with links to new information/articles/videos etc.
 
+- Site owner goals 
+
+  - 
+
 ### Design
 - Color Scheme
   - Simple, clean, calm, white background with colourful images overlayed to look as though they are floating. 
@@ -108,6 +112,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 - [Google Fonts](https://fonts.google.com/)
 - Git
 - GitHub
+- [PicResize](https://picresize.com/)
 
 ## Testing
 
@@ -136,6 +141,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
   - In the GitHub repository, navigate to the Settings tab
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+<!-- Deployment code and content taken straight from Code Institutes README template -->
 
 - You can view the live site [here](Add site link here).
 
