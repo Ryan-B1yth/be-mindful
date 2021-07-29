@@ -28,7 +28,9 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
 - Site owner goals 
 
-  - 
+  - For users to learn and become interested in the art of mindfulness and meditation.
+  
+  - For users to want to continue learning by signing up to a news letter. 
 
 ### Design
 - Color Scheme
