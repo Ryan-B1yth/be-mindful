@@ -26,8 +26,6 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
   - To recieve emails from the site with links to new information/articles/videos etc.
 
-
-
 ### Design
 - Color Scheme
   - Simple, clean, calm, white background with colourful images overlayed to look as though they are floating. 
@@ -72,7 +70,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 - The bottom of the landing page has interactive cards as the user hovers over them giving a little information regarding yoga to encourage the user to learn more by navigating to the relevant page.
 - The footer follows a similar colour scheme to the hero image to tie the page together and give links to social media and access to the news letter sign up page. This is featured on all pages.
 
- ### Meditation page
+### Meditation page
 
  ![Meditation page](assets/images/meditation-page.PNG)
 
@@ -121,6 +119,8 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
 ### Known bugs
 - On the meditation page, under 720px width, a white band appeared to the right of the screen that pushed all the content over. Although generally hidden on smaller screen, it could be scrolled to. Using [this comment](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) from Stack Overflow, I added the necessary code into my own to fix the bug.
+
+- On all pages except the landing page and the nature page, at certain screen sizes the page would collapse, bringing the footer to the base of the header leaving the rest of the page to 'spill out' below. Various attempts were made to try and fix this to have the page respond in the same way to the landing page however none seemed to work. Finally, specific div element sizes were altered manually in the media quieries which fixed the issue but isn't an elegant solution. Dispite 'fixed', I will return to this to improve the fix at a later date.
 
 ## Further testing
 - The site was tested on Google Chrome using their developer tools and viewed on Firefox and Microsoft Edge to ensure it worked across multiple platforms. The site was also viewed on multiple devices of varying screen sizes.
