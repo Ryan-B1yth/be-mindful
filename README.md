@@ -2,10 +2,7 @@
 
 ![4 size view of the website's home page](assets/images/amiresponsive-portfolio1.PNG)
 
-This is my first project for Code Institute. 
-You can view the live site [here](Add site link here).
-
-Be Mindful is a mindfulness and meditation website, designed to provide information to the user on how to live a more healthy and positive minded lifestyle through various means. The landing page gives a brief explanation of mindfulness, meditation, and yoga. The meditation page has a 'how to' walkthrough if you are a beginner at the practice. The yoga page goes into detail about the benefits of the practice and links to sites and/or videos for beginners and intermediates. 
+Be Mindful is a mindfulness and meditation website, designed to provide information to the user on how to live a more healthy and positive minded lifestyle through various means. The landing page gives a brief explanation of mindfulness, meditation, and yoga. The meditation page has a 'how to' walkthrough if you are a beginner at the practice and the yoga page goes into detail about the history of the practice, different variations, and links to sites and videos for beginners and intermediates. The site encourages people to get out into nature and signposts where users can find more information. 
 
 ## User Experience (UX)
 
@@ -27,7 +24,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
   - To see updates to the website with better information and links.
 
-  - In the future, to be able to participate in discussions revolving around users experience with mindfulness and meditation.
+  - To recieve emails from the site with links to new information/articles/videos etc.
 
 
 
@@ -60,7 +57,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 ## Features
 
 ### Existing features
-
+- Responsive navigation bar
 - Interactive elements
 - Responsive design for all screen sizes.
 
@@ -68,12 +65,12 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
  ![Landing page](assets/images/home-page.PNG)
 
- - The landing page loads with a calming image and immediate access to the navigation. The overlay gives the user the reason behind the website and acts like a signpost to the rest of the page by using an elipses to finish the sentence.
+ - The landing page loads with a calming image and immediate access to the navigation. The overlay gives the user the reason behind the website and has a smooth hover effect.
 
  ![Lower landing page](assets/images/lower-home-page.PNG)
 
 - The bottom of the landing page has interactive cards as the user hovers over them giving a little information regarding yoga to encourage the user to learn more by navigating to the relevant page.
-- The footer follows a similar colour scheme to the hero image to tie the page together and give links to social media and access to the news letter sign up page.
+- The footer follows a similar colour scheme to the hero image to tie the page together and give links to social media and access to the news letter sign up page. This is featured on all pages.
 
  ### Meditation page
 
@@ -85,7 +82,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
  ![Yoga page](assets/images/yoga-page.PNG)
 
- - THe yoga page has various information from history to practicing. Images to the side provide context and follow the design motif of the site.
+ - The yoga page has various information from history to practicing. Images to the side provide context and follow the design motif of the site. Links found in the text navigate to pages with specific information relevant to the paragraph. 
 
 ### Nature page
 
@@ -93,28 +90,28 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
 - The nature page has some basic information with links to external sites where the user can learn more.
 
-###
+### Sign up page
 
 ![Sign up page](assets/images/sign-up-page.PNG)
 
-- The sign-up page is for a theoretical news letter the user could have access to.
+- The sign-up page is for a potential news letter the user could have access to.
 
-### Features to be implimented
+## Features to be implimented
 
-- 
+- A functioning news letter where users can add their emails and receive periodic emails with new information and links users may find interesting. 
 
-### Languages Used
+## Languages Used
 
 - HTML5
 - CSS3
 
-### Frameworks used
+## Frameworks used
 
 - [Google Fonts](https://fonts.google.com/)
 - Git
 - GitHub
 
-### Testing
+## Testing
 
 - The original project was constructed on a laptop with a screen size of 12.3 inches. The code was also put through W3C validators and passed through without any issues.
 
@@ -125,14 +122,22 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 ### Known bugs
 - On the meditation page, under 720px width, a white band appeared to the right of the screen that pushed all the content over. Although generally hidden on smaller screen, it could be scrolled to. Using [this comment](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) from Stack Overflow, I added the necessary code into my own to fix the bug.
 
-### Further testing
+## Further testing
 - The site was tested on Google Chrome using their developer tools and viewed on Firefox and Microsoft Edge to ensure it worked across multiple platforms. The site was also viewed on multiple devices of varying screen sizes.
 
-- Google Chromes DevTools Lighthouse:
+- Google Chrome's DevTools Lighthouse:
   - Desktop
         ![Lighthouse score for desktop](assets/images/lighthouse-score.PNG)
   - Mobile
         ![Lighthouse score for mobile](assets/images/lighthouse-score-mobile.PNG)
+
+## Deployment 
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+- You can view the live site [here](Add site link here).
 
 ## Credits 
 
