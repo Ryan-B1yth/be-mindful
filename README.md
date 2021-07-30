@@ -120,9 +120,9 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
 - The original project was constructed on a laptop with a screen size of 12.3 inches. The code was also put through W3C validators and passed through without any issues.
 
-  - [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+  - [W3C Markup Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fryan-b1yth.github.io%2Fbe-mindful%2F)
 
-  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+  - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fryan-b1yth.github.io%2Fbe-mindful%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Known bugs
 - On the meditation page, under 720px width, a white band appeared to the right of the screen that pushed all the content over. Although generally hidden on smaller screen, it could be scrolled to. Using [this comment](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) from Stack Overflow, I added the necessary code into my own to fix the bug.
@@ -145,7 +145,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 <!-- Deployment code and content taken straight from Code Institutes README template -->
 
-- You can view the live site [here](Add site link here).
+- You can view the live site [here](https://ryan-b1yth.github.io/be-mindful/).
 
 ## Credits 
 
