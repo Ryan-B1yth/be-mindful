@@ -37,7 +37,7 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
   - Simple, clean, calm, white background with colourful images overlayed to look as though they are floating. 
 
 - Typography
-  - An easy to read typeface Barlow is used throughout the site following a calm motif. Dancing Script was used for the logo so that it would stand out against the reast of the site. 
+  - An easy to read typeface Barlow is used throughout the site following a calm motif. Dancing Script was used for the logo so that it would stand out against the rest of the site. 
 
 - Imagery
   - Colourful, vibrant images contrasting a white background to elicit calm feelings in the user.
@@ -64,12 +64,13 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 - Responsive navigation bar
 - Interactive elements
 - Responsive design for all screen sizes.
+- Sign up page
 
 ### Landing Page
 
  ![Landing page](assets/images/home-page.PNG)
 
- - The landing page loads with a calming image and immediate access to the navigation. The overlay gives the user the reason behind the website and has a smooth hover effect.
+ - The landing page loads with a calming image and immediate access to the navigation in the header which is featured on all pages. The overlay gives the user the reason behind the website and has a smooth hover effect.
 
  ![Lower landing page](assets/images/lower-home-page.PNG)
 
