@@ -54,6 +54,7 @@ header h1, .logo {
     color: #000000;
     font-size: 300%;
     margin-left: 25px;
+
     position: absolute;
     top: 40%;
 }
@@ -63,6 +64,7 @@ header h1, .logo {
 nav {
     clear: both;
     float: right;
+
     position: absolute;
     right: 5%;
     top: 25%;
@@ -232,7 +234,7 @@ nav a:hover {
 footer {
     height: 100px;
     width: 100%;
-    color: white;
+    color: #ffffff;
     /* Linear gradient made with help from W3Schools */
     background-image: linear-gradient(to left, #A6A897, #43463E);
 }
@@ -249,7 +251,7 @@ footer li {
 
 footer a {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 
 /* Meditation Page */
@@ -265,10 +267,12 @@ footer a {
 
 .top-image-cover-text {
     background-color: rgba(0, 0, 0, .4);
+
     position: absolute;
     right: 8%;
     top: 10%;
-    color: white;
+    
+    color: #ffffff;
     max-width: 25ch;
     padding: 40px;
 }
@@ -282,7 +286,7 @@ footer a {
 }
 
 hr {
-    border-top: 1px solid grey;
+    border-top: 1px solid rgb(128, 128, 128);
     width: 100%;
     margin-top: 10px;
 }
@@ -316,7 +320,6 @@ hr {
     margin: 10px;
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, .4), 0 10px 10px 0 rgba(0, 0, 0, .4);
     overflow: hidden;
-
 }
 
 /* Yoga */
@@ -391,7 +394,7 @@ hr {
     background-image: linear-gradient(
         rgba(151, 151, 151, .7),
         rgba(0, 0, 0, 0));
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -595,7 +598,7 @@ form p {
         right: 100px;
         top: 20px;
         z-index: 999;
-        background-color: white;
+        background-color: #ffffff;
         box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .5), 0 10px 20px 0 rgba(0, 0, 0, .5);
         width: 80%;
     }
