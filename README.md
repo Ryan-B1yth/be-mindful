@@ -141,8 +141,9 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
 ## Deployment 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, navigate to the Settings tab
-  - From the source section drop-down menu, select the Master Branch
+  - In the GitHub repository, navigate to the Settings tab.
+  - Open the pages tab on the left hand side of the page.
+  - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 <!-- Deployment code and content taken straight from Code Institutes README template -->
 
@@ -200,6 +201,6 @@ Be Mindful is a mindfulness and meditation website, designed to provide informat
 
 - Hamburger menu made with help from [Kevin Powell](https://www.youtube.com/watch?v=8QKOaTYvYUA&ab_channel=KevinPowell).
     
-- Tutor support at Code Institute for all their support throught.
+- Tutor support at Code Institute for all their support throughout.
 
 - Friends and family for viewing the site and giving feedback.
